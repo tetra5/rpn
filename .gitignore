@@ -1,0 +1,59 @@
+# Numerous always-ignore extensions
+*.pyc
+*.pyo
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+*.sass-cache
+
+# vagrant
+.vagrant
+
+__pycache__
+
+# herpderp
+leprosorium.*
+localconfig.*
+
+# build and dist folders, doc folders
+build
+dist
+docs/build/*
+
+# Cache and log files
+*.cache
+*.log
+
+# OS or Editor folders
+.pydevproject
+.DS_Store
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+
+# IntelliJ IDEA
+.idea
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+node_modules
